@@ -1,0 +1,49 @@
+{
+    "name": "andre/tombstone",
+    "description": "Keeps deleted discussions from becoming dead 404 links. Automatically serves a proper 410 Gone page, or a 301 redirect you set, for any discussion URL that no longer exists.",
+    "type": "flarum-extension",
+    "keywords": [
+        "seo",
+        "redirect",
+        "404",
+        "410",
+        "moderation",
+        "links"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andre",
+            "homepage": "https://github.com/andre"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/andre/flarum-tombstone/issues",
+        "source": "https://github.com/andre/flarum-tombstone"
+    },
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andre\\Tombstone\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Tombstone",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-tombstone",
+                "backgroundColor": "#2E2E38",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
