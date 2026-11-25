@@ -1,5 +1,5 @@
 {
-    "name": "andre/tombstone",
+    "name": "andrexdd/tombstone",
     "description": "Keeps deleted discussions from becoming dead 404 links. Automatically serves a proper 410 Gone page, or a 301 redirect you set, for any discussion URL that no longer exists.",
     "type": "flarum-extension",
     "keywords": [
@@ -14,12 +14,12 @@
     "authors": [
         {
             "name": "andre",
-            "homepage": "https://github.com/andre"
+            "homepage": "https://github.com/andrexdd"
         }
     ],
     "support": {
-        "issues": "https://github.com/andre/flarum-tombstone/issues",
-        "source": "https://github.com/andre/flarum-tombstone"
+        "issues": "https://github.com/andrexdd/flarum-tombstone/issues",
+        "source": "https://github.com/andrexdd/flarum-tombstone"
     },
     "require": {
         "php": "^8.2",
